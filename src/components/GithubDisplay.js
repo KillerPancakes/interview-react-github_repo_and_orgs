@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import GithubInput from "./GithubInput";
 import ListGroup from "./ListGroup";
+import JumboTron from "./JumboTron";
 import { getUserData } from "../github-api";
 
 class GithubDisplay extends Component {
@@ -17,6 +18,7 @@ class GithubDisplay extends Component {
   render() {
     return (
       <div className="container">
+        <JumboTron />
         <div className="row">
           <div className="col">
             <GithubInput handleSubmit={this.handleSubmit} />
