@@ -41,3 +41,5 @@ provide any insights regarding their choices and practices.
 * Provide unit and integration tests
 * Deploy the project somewhere
 * Use ES6 syntax including arrow functions, destructuring and async/await
+
+Complete: Kaden McLaws
